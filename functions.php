@@ -18,7 +18,7 @@ try {
     var_dump(sumaDeEnteros(2, 3, 4));
     echo " ## ";
     sumaDeEnteros(2,3,4.3);
-} catch (TypeError $e) {
+} catch (Throwable $e) {
     echo 'Error: '.$e->getMessage();
 }
 
